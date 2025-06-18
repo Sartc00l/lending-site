@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ресторан "Вкус Жизни"</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-[url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092')] bg-cover bg-center h-[90vh] text-white relative">
+    <div class="bg-black bg-opacity-60 h-full flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6">Ресторан "Вкус Жизни"</h1>
+      <p class="text-xl md:text-2xl mb-8 max-w-xl">Откройте для себя искусство изысканной кухни в самом сердце города</p>
+      <a href="#menu" class="bg-red-600 hover:bg-red-700 px-6 py-3 text-lg rounded-full transition">Посмотреть меню</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="py-20 bg-gray-100 text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-4xl font-semibold mb-4">О нас</h2>
+      <p class="text-lg text-gray-600">Мы — команда поваров и знатоков гастрономии, создающих незабываемые вкусы, вдохновлённые традициями и современными техниками. Наш ресторан — это место, где еда становится искусством.</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-semibold text-center mb-12">Меню</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-xl rounded-2xl p-6">
+          <img src="https://images.unsplash.com/photo-1604908177522-4027b7f0da5f" alt="Блюдо 1" class="rounded-xl mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Филе Миньон</h3>
+          <p class="text-gray-600">Нежнейшая говядина с соусом демиглас и картофельным пюре</p>
+        </div>
+        <div class="bg-white shadow-xl rounded-2xl p-6">
+          <img src="https://images.unsplash.com/photo-1553621042-f6e147245754" alt="Блюдо 2" class="rounded-xl mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Ризотто с трюфелем</h3>
+          <p class="text-gray-600">Кремовое ризотто с ароматом белого трюфеля и пармезаном</p>
+        </div>
+        <div class="bg-white shadow-xl rounded-2xl p-6">
+          <img src="https://images.unsplash.com/photo-1613145991263-80f4f430124b" alt="Блюдо 3" class="rounded-xl mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Панна Котта</h3>
+          <p class="text-gray-600">Итальянский десерт с ванилью и ягодным соусом</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-4xl mx-auto text-center px-4">
+      <h2 class="text-4xl font-semibold mb-6">Связаться с нами</h2>
+      <p class="text-lg text-gray-600 mb-6">Забронируйте столик по телефону или приходите без записи</p>
+      <p class="text-lg font-semibold">+7 (999) 123-45-67</p>
+      <p class="text-gray-600">ул. Гастрономическая, 1, г. Москва</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>&copy; 2025 Ресторан "Вкус Жизни". Все права защищены.</p>
+  </footer>
+</body>
+</html>
